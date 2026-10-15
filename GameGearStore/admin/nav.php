@@ -1,0 +1,1 @@
+<div class="admin-sidebar mb-3"><h5 class="text-white px-2">Quản trị</h5><a href="index.php">📊 Tổng quan</a><a href="products.php">🎮 Sản phẩm</a><a href="categories.php">📂 Danh mục</a><a href="orders.php">🧾 Đơn hàng</a><a href="contacts.php">✉ Liên hệ</a><a href="../index.php">← Về cửa hàng</a></div>

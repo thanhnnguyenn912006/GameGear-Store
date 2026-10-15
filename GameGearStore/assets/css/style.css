@@ -1,0 +1,86 @@
+:root{--gg-red:#ef3340;--gg-dark:#111318;--gg-panel:#1a1d24}body{background:#f5f6f8;color:#20232a;font-family:system-ui,-apple-system,Segoe UI,sans-serif}.gg-nav{background:var(--gg-dark);border-bottom:3px solid var(--gg-red)}.navbar-brand{letter-spacing:1px}.hero{background:linear-gradient(120deg,#15171d,#292d38);color:white;border-radius:18px;padding:clamp(2rem,6vw,5rem);position:relative;overflow:hidden}.hero h1{font-weight:800}.text-red{color:var(--gg-red)}.btn-red{background:var(--gg-red);border-color:var(--gg-red);color:white}.btn-red:hover{background:#cf2632;color:white}.product-card{border:0;border-radius:14px;overflow:hidden;box-shadow:0 4px 18px #1218270c;height:100%;transition:transform .18s}.product-card:hover{transform:translateY(-4px)}.product-img{height:190px;object-fit:cover;background:#e9ebef}.price{color:#d52a36;font-size:1.1rem;font-weight:800}.section-title{font-weight:800;margin-bottom:1.2rem}.gg-footer{background:#111318;color:#f1f1f1}.admin-sidebar{background:#20232b;border-radius:12px;padding:1rem}.admin-sidebar a{color:#fff;display:block;padding:.55rem;text-decoration:none;border-radius:6px}.admin-sidebar a:hover{background:#383c47}.form-card,.content-card{background:white;border-radius:14px;padding:1.25rem;box-shadow:0 4px 18px #1218270c}.table td,.table th{vertical-align:middle}.small-muted{color:#747b87;font-size:.9rem}
+
+
+/* ===== GIAO DIỆN ẢNH SẢN PHẨM GAMEGEAR ===== */
+
+/* Thẻ sản phẩm */
+.product-card {
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid #edf0f4;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0 5px 18px rgba(20, 25, 35, 0.06);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(20, 25, 35, 0.12);
+}
+
+/* Ảnh sản phẩm */
+.product-img {
+    display: block;
+    width: 100%;
+    height: 230px;
+    padding: 14px;
+    box-sizing: border-box;
+    object-fit: contain;
+    object-position: center;
+    background: #fff;
+}
+
+/* Nội dung sản phẩm */
+.product-card .card-body {
+    padding: 16px;
+}
+
+.product-card .card-body h5 {
+    min-height: 44px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Giá sản phẩm */
+.product-card .price {
+    color: #ed2939;
+    font-size: 1.2rem;
+    font-weight: 750;
+}
+
+/* Nút xem chi tiết */
+.product-card .btn {
+    margin-top: 0;
+    padding: 8px 12px;
+    border-radius: 7px;
+    transition: all 0.2s ease;
+}
+
+.product-card .btn:hover {
+    background: #212529;
+    color: #fff;
+}
+
+/* Điện thoại */
+@media (max-width: 576px) {
+    .product-img {
+        height: 170px;
+        padding: 8px;
+    }
+
+    .product-card .card-body {
+        padding: 12px;
+    }
+
+    .product-card .card-body h5 {
+        font-size: 0.9rem;
+        min-height: 40px;
+    }
+
+    .product-card .price {
+        font-size: 1rem;
+    }
+}
+

@@ -27,7 +27,3 @@ CHỨC NĂNG ĐÃ CÓ
 - Trang quản trị: CRUD sản phẩm và danh mục; cập nhật trạng thái đơn hàng; xóa liên hệ
 - Dữ liệu sản phẩm minh họa có sẵn trong file SQL
 
-LƯU Ý
-- Dự án học tập, chưa tích hợp cổng thanh toán thật, email xác nhận hay giao hàng thực tế.
-- Ảnh sản phẩm mẫu dùng URL placeholder; thay URL trong quản trị sản phẩm nếu muốn.
-- Đổi mật khẩu và bổ sung bảo vệ CSRF/rate limiting trước khi triển khai công khai.
